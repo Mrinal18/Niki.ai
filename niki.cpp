@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 const long modu = 1000000007;
+
 long long int calculateSum(long long int n)
 {
 	if (n <= 0)
@@ -25,7 +26,12 @@ long long int calculateSum(long long int n)
 
 int main()
 {
-	long long int n = 5;
+    long long int t;
+    cin >> t;
+    while(t--){
+	long long int n;
+	cin >> n;
 	cout << calculateSum(n) << endl;
 	return 0;
+    }
 }
